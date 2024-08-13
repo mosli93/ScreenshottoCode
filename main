@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recreated Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Navbar -->
+    <nav class="bg-blue-700 p-4 flex items-center justify-between">
+        <div class="flex items-center space-x-4">
+            <i class="fas fa-bars text-white"></i>
+            <span class="text-white font-bold text-lg">SVUMUSTER</span>
+        </div>
+        <div class="flex items-center space-x-2">
+            <input type="text" placeholder="Person suchen"
+                class="p-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <i class="fas fa-search text-white"></i>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="text-white font-bold">Moser Oliver</span>
+            <span class="text-white">oliver.moser@m-s.ch</span>
+            <i class="fas fa-user-circle text-white text-2xl"></i>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="flex p-4 space-x-4">
+        <!-- Left Column -->
+        <div class="w-1/4 bg-white rounded-lg shadow-md p-4 space-y-4">
+            <div>
+                <h2 class="text-blue-700 font-bold text-lg">Prozessmonitor</h2>
+                <p class="text-gray-600">Es wurden keine Einträge gefunden</p>
+                <input type="text" placeholder="Filtern... (mind. 3 Zeichen)"
+                    class="mt-2 p-2 border border-gray-300 rounded-lg w-full">
+            </div>
+            <div>
+                <h2 class="text-blue-700 font-bold text-lg">Suchen</h2>
+            </div>
+            <div>
+                <h2 class="text-blue-700 font-bold text-lg">Hunziker Anita</h2>
+                <p class="text-gray-600">HR | 756.5408.0707.25 | 102325 | 20.03.1963 (61)</p>
+                <p class="text-gray-600">Geissfluhstrasse 14, 3072 Ostermundigen, BE</p>
+                <div class="flex space-x-2 mt-2">
+                    <i class="fas fa-phone text-blue-700"></i>
+                    <i class="fas fa-envelope text-blue-700"></i>
+                    <i class="fas fa-print text-blue-700"></i>
+                    <i class="fas fa-cog text-blue-700"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Middle Column -->
+        <div class="w-2/4 space-y-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Personalien</h2>
+                <p class="text-gray-800"><strong>Frau Anita Hunziker</strong></p>
+                <p class="text-gray-600">20.03.1963 (61) Verheiratet</p>
+                <p class="text-gray-800">102'325 Personen-Nr.</p>
+                <p class="text-gray-800">756.5408.0707.25 AHV-Nr.</p>
+                <p class="text-gray-800">493.63.582.000 Register-Nr.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Rollen</h2>
+                <ul class="list-disc pl-4">
+                    <li>Mitglied</li>
+                    <li>Abrechnungs-Nr: 102325</li>
+                    <li>Versicherter</li>
+                    <li>AHV/IV Rentner</li>
+                    <li>Partner/Anderer Elternteil</li>
+                    <li>Kontokorrent</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Beziehungen</h2>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Namen</h2>
+                <p class="text-gray-800"><strong>Frau Hunziker Anita</strong></p>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="w-1/4 space-y-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Adressen</h2>
+                <p class="text-gray-600"><strong>DOMIZIL</strong></p>
+                <p class="text-gray-600">Geissfluhstrasse 14, 3072 Ostermundigen</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Zahlungsverbindungen</h2>
+                <p class="text-gray-600">Raiffeisenbank Aarau-Lenzburg</p>
+                <p class="text-gray-600">CH51 8914 4871 9631 7133 6</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Kommunikation</h2>
+                <p class="text-gray-600">+41 (44) 222 55 11 Tel. (Primär)</p>
+                <p class="text-gray-600">anita.hunziker@mail.ch E-Mail (Primär)</p>
+                <p class="text-gray-600">102325 AbrNr</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Eltern/Vertretung</h2>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Partnerschaften</h2>
+                <p class="text-gray-600">Urs Hunziker Ehemann | 06.08.1990</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Kinder</h2>
+                <p class="text-gray-600">Sabrina Koller | 04.09.1991 (32) | ½.Sorge ½.Obhut</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-blue-700 font-bold text-lg">Ausländerinfo</h2>
+                <p class="text-gray-600">Z-Eingebürgert</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
